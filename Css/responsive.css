@@ -1,0 +1,145 @@
+@media screen and (max-width: 990px) {
+    /* Start Nav */
+    nav .collapse .navbar-nav .dropdown .dropdown-menu {
+        display: none;
+    }
+    nav .collapse .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+        width: 50%;
+        transform: none;
+    }
+    nav .collapse .navbar-nav .dropdown {
+        padding: 0;
+    }
+    /* Start Slider */
+    .carousel-inner {
+        height: 50vh !important;
+    }   
+    .carousel-inner img {
+        height: 100% !important;
+    }
+    /* Start About Us */
+    .header-seation .head-middle p {
+        font-size: 24px !important;
+    }
+    .boxs-cont {
+        position: static !important;
+        margin-bottom: 20px;
+    }
+    .about-img {
+        height: 100% !important;
+    }
+    .thrid-col {
+        margin-top: 20px;
+    }
+    .about-img {
+        height: 100%;
+        max-width: 100%;
+    }
+    /* Start Counter */
+    .aInCounterBox {
+        width: 90px;
+        height: 90px;
+    }
+    .aInCounterBox i {
+        font-size: 40px;
+    }
+    .counter-info h4 {
+        font-weight: 700;
+        font-size: x-large;
+    }
+    .counter-info .p-common {
+        font-size: 18px;
+    }
+    /* End Counter */
+    /* Start Our Services */
+    .c-white.p-common.w-75 {
+        width: 100% !important;
+    }
+    /* End Our Services */
+    .ourCreativeTeam .ourTeamItem .teamInfo {
+        bottom: -42.5%;
+    }
+    .subscribe .container {
+        flex-direction: column;
+    }
+    .subscribe .container .sub-left,
+    .subscribe .container .sub-right {
+        width: 100%;
+        margin: 10px 0;
+    }
+    /* Start Our Pricing */
+    .ourPricing .row .nav-item .nav-link {
+        padding: 15px 25px;
+    }
+    /* start our clients */
+    .clinets .container .imgConts {
+        margin-left: 0;
+    }
+    .clinets .main-img {
+        display: none;
+    }
+    /* testimonial */
+    .testimonial .container .row .owl-carousel .item .card .row .col-md-3 {
+        padding-left: 0;
+    }
+    .testimonial .card  {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .ourCreativeTeam .ourTeamItem .teamInfo {
+        bottom: -42.5%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .ourCreativeTeam .ourTeamItem .teamInfo {
+        bottom: -35.5%;
+    }
+    .purchase .container i {
+        display: none;
+    }
+    .purchase .container .l-part button {
+        font-size: 14px;
+    }
+    .purchase .container .r-part h2 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .purchase .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .subscribe .sub-left h2 {
+        font-size: 30px;
+    }
+    .subscribe .sub-left i {
+        font-size: 30px;
+    }
+    .scroll {
+        right: 30px;
+        bottom: 30px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ourCreativeTeam .header-seation .head-middle {
+        padding: 0 !important;
+    }
+    .scroll {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .ourCreativeTeam .header-seation .head-middle{
+       width: 50%;
+    }
+    .ourPricing .row .nav-item .nav-link {
+        padding: 10px 15px;
+    }
+    .scroll {
+        right: 15px;
+        bottom: 15px;
+    }
+}
